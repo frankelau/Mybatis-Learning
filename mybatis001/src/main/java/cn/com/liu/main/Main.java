@@ -5,6 +5,11 @@ package cn.com.liu.main;
  */
 public class Main {
     public static void main(String[] args) {
+        //language=JSON
+        String rest = "{\"a\":\"b\"}";
+
+
+
 
     }
 }

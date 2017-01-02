@@ -49,6 +49,7 @@ public class JdbcTest {
             paramList.add("7938");
             count =  seu.insertOrUpdateOrDelete("delete from emp where empno = ?",paramList);
             System.out.println("删除"+count+"条");
+            String reg ="";
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
