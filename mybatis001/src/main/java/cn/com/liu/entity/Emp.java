@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * EMP
- * created by liuzh on 2017-01-01 18:14:48.
+ * created by liuzh on 2017-01-02 16:42:15.
 */
 public class Emp {
     /**EMPNO*/
@@ -23,6 +23,21 @@ public class Emp {
     private Integer comm;
     /**DEPTNO*/
     private Integer deptno;
+
+    public Emp() {
+        super();
+    }
+
+    public Emp(Integer empno,String ename,String job,Integer mgr,Date hiredate,Integer sal,Integer comm,Integer deptno) {
+        this.empno = empno;
+        this.ename = ename;
+        this.job = job;
+        this.mgr = mgr;
+        this.hiredate = hiredate;
+        this.sal = sal;
+        this.comm = comm;
+        this.deptno = deptno;
+    }
 
     /**EMPNO*/
     public void setEmpno(Integer empno) {

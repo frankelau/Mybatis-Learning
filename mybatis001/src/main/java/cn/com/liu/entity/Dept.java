@@ -3,7 +3,7 @@ package cn.com.liu.entity;
 
 /**
  * DEPT
- * created by liuzh on 2017-01-01 18:14:48.
+ * created by liuzh on 2017-01-02 16:42:15.
 */
 public class Dept {
     /**DEPTNO*/
@@ -12,6 +12,16 @@ public class Dept {
     private String dname;
     /**LOC*/
     private String loc;
+
+    public Dept() {
+        super();
+    }
+
+    public Dept(Integer deptno,String dname,String loc) {
+        this.deptno = deptno;
+        this.dname = dname;
+        this.loc = loc;
+    }
 
     /**DEPTNO*/
     public void setDeptno(Integer deptno) {

@@ -3,7 +3,7 @@ package cn.com.liu.entity;
 
 /**
  * SALGRADE
- * created by liuzh on 2017-01-01 18:14:48.
+ * created by liuzh on 2017-01-02 16:42:15.
 */
 public class Salgrade {
     /**GRADE*/
@@ -12,6 +12,16 @@ public class Salgrade {
     private Integer losal;
     /**HISAL*/
     private Integer hisal;
+
+    public Salgrade() {
+        super();
+    }
+
+    public Salgrade(Integer grade,Integer losal,Integer hisal) {
+        this.grade = grade;
+        this.losal = losal;
+        this.hisal = hisal;
+    }
 
     /**GRADE*/
     public void setGrade(Integer grade) {

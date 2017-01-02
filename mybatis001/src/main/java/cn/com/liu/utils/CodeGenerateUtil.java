@@ -136,6 +136,34 @@ public class CodeGenerateUtil {
                 sb.append(";\n");
             }
             sb.append("\n");
+            //生成构造方法
+            sb.append("    public ");
+            sb.append(table.getTableName());
+            sb.append("() {\n        super();\n    }\n\n");
+            sb.append("    public ");
+            sb.append(table.getTableName());
+            sb.append("(");
+            for (int i = 0;i<coloumnList.size();i++) {
+                ColoumnEnity coloumnEnity = coloumnList.get(i);
+                String str = OracleTypes.valueOf(coloumnEnity.getColoumnType()).javaTypeName;
+                sb.append(str);
+                sb.append(" ");
+                sb.append(coloumnEnity.getColoumnName_p());
+                if(i == coloumnList.size()-1){
+                    sb.append(") {\n");
+                }else{
+                    sb.append(",");
+                }
+            }
+            for (ColoumnEnity coloumnEnity : coloumnList) {
+                String str = OracleTypes.valueOf(coloumnEnity.getColoumnType()).javaTypeName;
+                sb.append("        this.");
+                sb.append(coloumnEnity.getColoumnName_p());
+                sb.append(" = ");
+                sb.append(coloumnEnity.getColoumnName_p());
+                sb.append(";\n");
+            }
+            sb.append("    }\n\n");
             //生成setter方法
             for (ColoumnEnity coloumnEnity : coloumnList) {
                 String str = OracleTypes.valueOf(coloumnEnity.getColoumnType()).javaTypeName;

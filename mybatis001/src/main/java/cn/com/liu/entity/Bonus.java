@@ -3,7 +3,7 @@ package cn.com.liu.entity;
 
 /**
  * BONUS: 奖励表
- * created by liuzh on 2017-01-01 18:14:48.
+ * created by liuzh on 2017-01-02 16:42:15.
 */
 public class Bonus {
     /**ENAME:员工姓名*/
@@ -14,6 +14,17 @@ public class Bonus {
     private Integer sal;
     /**COMM:奖励*/
     private Integer comm;
+
+    public Bonus() {
+        super();
+    }
+
+    public Bonus(String ename,String job,Integer sal,Integer comm) {
+        this.ename = ename;
+        this.job = job;
+        this.sal = sal;
+        this.comm = comm;
+    }
 
     /**ENAME:员工姓名*/
     public void setEname(String ename) {
