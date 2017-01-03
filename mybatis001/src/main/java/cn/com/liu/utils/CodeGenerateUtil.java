@@ -137,9 +137,11 @@ public class CodeGenerateUtil {
             }
             sb.append("\n");
             //生成构造方法
+            sb.append("    /** 无参构造方法 */\n");
             sb.append("    public ");
             sb.append(table.getTableName());
             sb.append("() {\n        super();\n    }\n\n");
+            sb.append("    /** 有参构造方法 */\n");
             sb.append("    public ");
             sb.append(table.getTableName());
             sb.append("(");
@@ -155,6 +157,7 @@ public class CodeGenerateUtil {
                     sb.append(",");
                 }
             }
+
             for (ColoumnEnity coloumnEnity : coloumnList) {
                 String str = OracleTypes.valueOf(coloumnEnity.getColoumnType()).javaTypeName;
                 sb.append("        this.");

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.com.liu.mapper.query.StudentQueryMapper">
+    <sql id="BASE_COLOUMN">
+        STUDENTID,STUDENTNAME,STUDENTAGE,STUDENTPHONE
+    </sql>
+    <select id="selectStudentById" parameterType="int" resultType="Student">
+        <![CDATA[
+            SELECT * FROM STUDENT WHERE STUDENTID = #{id}
+        ]]>
+    </select>
+    <select id="selectList" parameterType="Student" resultType="Student">
+        SELECT <include refid="BASE_COLOUMN"></include> FROM STUDENT
+        <where>
+            <if test="studentname != null">
+                AND STUDENTNAME = #{studentname}
+            </if>
+            <if test="studentage != null">
+                AND STUDENTAGE = #{studentage}
+            </if>
+            <if test="studentid != null">
+                AND STUDENTID = #{studentid}
+            </if>
+            <if test="studentphone != null">
+                AND STUDENTPHONE = #{studentphone}
+            </if>
+        </where>
+    </select>
+    <select id="selectInCondition" parameterType="Student" resultType="Student">
+        <![CDATA[
+        SELECT * FROM STUDENT WHERE STUDENTID > #{studentid}
+    ]]>
+        <choose>
+            <when test="studentname != null">
+                AND STUDENTNAME = #{studentname}
+            </when>
+            <when test="studentage != null">
+                AND STUDENTAGE = #{studentage}
+            </when>
+            <when test="studenphone != null">
+                AND STUDENPHONE = #{studenphone}
+            </when>
+            <otherwise>
+                or 1 = 1;
+            </otherwise>
+        </choose>
+    </select>
+</mapper>

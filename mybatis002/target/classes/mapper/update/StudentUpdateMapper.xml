@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.com.liu.mapper.update.StudentUpdateMapper">
+    <update id="updateStudentById" parameterType="Student">
+        <![CDATA[
+            UPDATE STUDENT
+        ]]>
+        <set>
+            <if test="studentname != null and '' != studentname">
+                STUDENTNAME = #{studentname},
+            </if>
+            <if test="studentage != null and '' != studentage">
+                STUDENTAGE = #{studentage},
+            </if>
+            <if test="studentphone != null and '' != studentphone">
+                STUDENTPHONE = #{studentphone},
+            </if>
+        </set>
+        <![CDATA[
+            WHERE STUDENTID = #{studentid}
+        ]]>
+    </update>
+    <insert id="insertStudent" useGeneratedKeys="false" keyProperty="studentid" parameterType="Student">
+        <![CDATA[
+        insert into student(studentid, studentname,studentage,studentphone)
+        values(#{studentid, jdbcType=INTEGER}, #{studentname, jdbcType=VARCHAR},#{studentage, jdbcType=INTEGER},#{studentphone, jdbcType=VARCHAR})
+   ]]>
+    </insert>
+</mapper>
