@@ -772,7 +772,7 @@
       <workItem from="1483242083943" duration="27375000" />
       <workItem from="1483279023054" duration="3275000" />
       <workItem from="1483342573754" duration="1835000" />
-      <workItem from="1483344511445" duration="19962000" />
+      <workItem from="1483344511445" duration="19974000" />
     </task>
     <task id="LOCAL-00001" summary="1.mybatis001 &#10; 1)基本的jdbc操作：增删改查&#10; 2)通过jdbc操作生成实体类&#10;    元数据操作&#10; 3)数据库连接池的简单实现&#10;    二重校验的单例模式&#10;">
       <created>1483282086301</created>
@@ -823,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483454489547</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="::">
+      <created>1483454502136</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1483454502137</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -859,7 +866,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57023000" />
+    <option name="totallyTimeSpent" value="57035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
