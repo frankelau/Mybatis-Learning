@@ -9,6 +9,7 @@
         <module name="mybatis001" />
         <module name="mybatis002" />
         <module name="mybatis003" />
+        <module name="mybatis004" />
         <module name="mybatis005" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="mybatis001" target="1.8" />
       <module name="mybatis002" target="1.8" />
       <module name="mybatis003" target="1.8" />
+      <module name="mybatis004" target="1.8" />
       <module name="mybatis005" target="1.5" />
     </bytecodeTargetLevel>
   </component>
