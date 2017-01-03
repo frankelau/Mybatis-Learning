@@ -1,4 +1,4 @@
-  CREATE TABLE `User` (
+  CREATE TABLE `s_user` (
   `user_id`  int(4) NOT NULL AUTO_INCREMENT COMMENT '用户ID' ,
   `user_name`  varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '用户姓名' ,
   `user_birthday`  date NULL DEFAULT NULL COMMENT '生日' ,
