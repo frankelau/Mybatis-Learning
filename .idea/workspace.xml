@@ -2,76 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273a0d3c-df52-489f-b731-29b0971aaff5" name="默认的" comment="::">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/bean/CUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/bean/Classes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/bean/ConditionUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/bean/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/bean/PUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/bean/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/bean/Teacher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/bean/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test1/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test1/userMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test2/Test2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test2/userMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test3/Test3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test3/UserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test4/Test4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test4/orderMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test5/ClassMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test5/Test5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test6/ClassMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test6/Test6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test7/Test7.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test7/userMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test8/Test8.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test8/userMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test9/Test9.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/test9/userMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis004/src/main/java/cn/com/liu/util/MybatisUtils.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/entity/Bonus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/entity/Dept.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/entity/Emp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/entity/Salgrade.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/entity/Student.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/entity/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/mapper/BaseQueryMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/mapper/BaseUpdateMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/mapper/query/StudentQueryMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/mapper/update/StudentUpdateMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/java/cn/com/liu/test/MybatisTest01.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/resources/mapper/query/StudentQueryMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/resources/mapper/update/StudentUpdateMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/src/main/resources/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/entity/Bonus.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/entity/Dept.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/entity/Emp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/entity/Salgrade.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/entity/Student.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/entity/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/mapper/BaseQueryMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/mapper/BaseUpdateMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/mapper/query/StudentQueryMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/mapper/update/StudentUpdateMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/cn/com/liu/test/MybatisTest01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/mapper/query/StudentQueryMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/mapper/update/StudentUpdateMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/classes/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/target/mybatis002-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis001/mybatis001.iml" afterPath="$PROJECT_DIR$/mybatis001/mybatis001.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis002/mybatis002.iml" afterPath="$PROJECT_DIR$/mybatis002/mybatis002.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis002/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/mybatis002/target/classes/mybatis-config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mybatis003/mybatis003/mybatis002.iml" afterPath="$PROJECT_DIR$/mybatis004/mybatis004.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/mybatis001/target/" />
     <ignored path="$PROJECT_DIR$/mybatis002/target/" />
@@ -840,7 +772,7 @@
       <workItem from="1483242083943" duration="27375000" />
       <workItem from="1483279023054" duration="3275000" />
       <workItem from="1483342573754" duration="1835000" />
-      <workItem from="1483344511445" duration="19920000" />
+      <workItem from="1483344511445" duration="19962000" />
     </task>
     <task id="LOCAL-00001" summary="1.mybatis001 &#10; 1)基本的jdbc操作：增删改查&#10; 2)通过jdbc操作生成实体类&#10;    元数据操作&#10; 3)数据库连接池的简单实现&#10;    二重校验的单例模式&#10;">
       <created>1483282086301</created>
@@ -884,7 +816,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483453145611</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="::">
+      <created>1483454489547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1483454489547</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -920,7 +859,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56981000" />
+    <option name="totallyTimeSpent" value="57023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
