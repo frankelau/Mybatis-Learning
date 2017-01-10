@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" filepath="$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis001/mybatis001.iml" filepath="$PROJECT_DIR$/mybatis001/mybatis001.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis002/mybatis002.iml" filepath="$PROJECT_DIR$/mybatis002/mybatis002.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis003/mybatis003.iml" filepath="$PROJECT_DIR$/mybatis003/mybatis003.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis004/mybatis004.iml" filepath="$PROJECT_DIR$/mybatis004/mybatis004.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis005/mybatis005.iml" filepath="$PROJECT_DIR$/mybatis005/mybatis005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis006/mybatis006.iml" filepath="$PROJECT_DIR$/mybatis006/mybatis006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis007/mybatis007.iml" filepath="$PROJECT_DIR$/mybatis007/mybatis007.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis008/mybatis008.iml" filepath="$PROJECT_DIR$/mybatis008/mybatis008.iml" />
     </modules>
   </component>
 </project>
