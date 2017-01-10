@@ -18,7 +18,10 @@ public class GeneratorSqlmap {
 		List<String> warnings = new ArrayList<String>();
 		boolean overwrite = true;
 		//指定 逆向工程配置文件
-		File configFile = new File("./generatorConfig.xml");
+		System.out.println(this.getClass().getClassLoader().getResource("generatorConfig.xml").getFile());
+		File file = new File("aa.txt");
+		if(!file.exists()) file.createNewFile();
+		File configFile = new File(this.getClass().getClassLoader().getResource("generatorConfig.xml").getFile());
 		ConfigurationParser cp = new ConfigurationParser(warnings);
 		Configuration config = cp.parseConfiguration(configFile);
 		DefaultShellCallback callback = new DefaultShellCallback(overwrite);
